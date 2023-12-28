@@ -1,13 +1,12 @@
-// prenetrega
-
 let nombre;
 let menu;
 let menuProductos;
 let idCarrito = [];
 let carrito = [];
 let total=0;
+const descuentoo = 1000;
 const cuchillo = {
-    id: 1,
+    
     nombre: 'cuchillo 14cm',
     precio: 7000
 }
@@ -26,9 +25,11 @@ const setparrilla = {
     nombre: 'Set parrillero',
     precio: 22000
 }
+ 
+
 
 do {
-    nombre = prompt("Bienvenido a Filo, ¿Cual es tu nombre?");
+    nombre = prompt("Bienvenido a Filo , ¿Cual es tu nombre?");
     if (nombre == null || nombre == '') {
         alert('Necesitas ingresar un nombre');
     }
@@ -76,6 +77,20 @@ do {
             }
         }
         alert('El precio total a pagar es de: $'+total+'Pesos Argentino')
+
+       
+     let promo = prompt('Quieres un descuento?'  + '?\n\n1.- si \n2.- no');
+
+ if (promo === "1") { 
+    function descuento () {
+    let descuento = total - descuentoo
+ alert ("el descuento por compra on line es "+ " " + descuentoo  + " precio final" + descuento);
+      }  
+      descuento();
+ }else{
+   alert("Gracias");
+ }
+             }  
     }
-    
-} while (menu != 3)
+
+while (menu != 3)
