@@ -1,0 +1,133 @@
+/* normalizador */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kotta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@500&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(117, 50, 26);
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-link:hover {
+  color: darkolivegreen !important;
+}
+
+.navbar-toggler i {
+  color: rgb(255, 255, 255) !important;
+}
+
+.jumbotron {
+  background: url(./multimedia/img4.jpg);
+  background-size: cover;
+  background-position: right;
+  color: rgb(186, 201, 161);
+  text-shadow: 0 0 10px chocolate;
+  text-align: left;
+}
+
+.btn {
+  border: 5px solid #504f4f;
+  background-color: chocolate;
+  color: bisque;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  text-align: right;
+}
+
+.fondoprincipal {
+  background-image: url(./multimedia/fondof.svg);
+  background-size: cover;
+}
+
+.col {
+  border: 2px solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+
+.col p {
+  font-family: "Kotta One";
+  color: #ffffff;
+  font-size: 25px;
+  text-transform: lowercase;
+}
+
+.col h3 {
+  color: #ffffff;
+  font-family: serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.container-fluid {
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  min-height: 200px;
+  background-color: rgb(117, 50, 26);
+}
+
+.footer-logo {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  color: blanchedalmond;
+  font-size: 3rem;
+  padding: 20px;
+  margin: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 30px;
+  color: #aeaeae;
+  padding: 20px;
+}/*# sourceMappingURL=estilos.css.map */

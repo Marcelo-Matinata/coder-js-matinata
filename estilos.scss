@@ -1,0 +1,157 @@
+/* normalizador */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  // importacion de fuentes
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@500&display=swap');
+  
+  // variables
+  $colortitulos: black;
+  $font1: roboto;
+  $font2: comic;
+  $font3: serif;
+  $font4: 'Kotta One';
+  $border1: 2px solid;
+  $border2: 1px double;
+  $fondop: rgb(228, 193, 96);
+  $fondocontenedores: linear-gradient(to left, rgb(100, 123, 226), rgb(199, 161, 58));
+  $width: 100%;
+  $padding: 100px;
+  $fontsize:100px;
+  
+  // barra navegacion
+  .navbar {
+    background-color: rgb(117, 50, 26);
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-link {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .nav-link:hover {
+    color: darkolivegreen !important;
+  }
+  
+  .navbar-toggler i {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  // jumbotron index
+  .jumbotron {
+    background: url(./multimedia/img4.jpg);
+    background-size: cover;
+    background-position: right;
+    color: rgb(186, 201, 161);
+    text-shadow: 0 0 10px chocolate;
+    text-align: left;
+  }
+  
+  .btn {
+    border: 5px solid #504f4f;
+    background-color: chocolate;
+    color: bisque;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+  }
+  
+  // fondo igual para todos los html
+  .fondoprincipal {
+    background-image: url(./multimedia/fondof.svg);
+    background-size: cover;
+  }
+  
+  // usados para solapa quienes somos
+  .col {
+    border: $border1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: calc($padding/2)-30px;
+  }
+  
+  .col p {
+    font-family: $font4;
+    color: #ffffff;
+    font-size: calc($fontsize/2)-25px;
+    text-transform: lowercase;
+  
+  }
+  
+  .col h3 {
+    color: #ffffff;
+    font-family: $font3;
+    font-size: calc($fontsize/2)-15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  
+  .container-fluid {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  // pie de pagina
+  footer {
+    min-height: 200px;
+    background-color: rgb(117, 50, 26);
+  }
+  
+  .footer-logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+  
+  .footer-texto {
+    color: blanchedalmond;
+    font-size: 3rem;
+    padding: calc($padding/2)-30px;
+    margin: 30px;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: black;
+  }
+  
+  .derechos-de-autor {
+    font-size: calc($fontsize/2)-20;
+    color: #aeaeae;
+    padding: calc($padding/2)-30px;
+  }

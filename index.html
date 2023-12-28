@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- iconos font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- enlade de bootstrats -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- fuentes de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <!-- enlace de animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- enlace de css -->
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- seo -->
+    <meta name="keywords" content="cuchillos, cuchilleria, grabado, afilado, cuchilloartesanal">
+    <meta name="descripcion" content="NUESTROS CUCHILLOS SON CONFECCIONADOS EN HOJAS DE ACERO INOXIDABLE, TRABAJANDO
+    TODAS LAS MARCAS DE HOJAS DISPONIBLES EN EL MERCADO. NUESTRO TRABAJO ES 100% ARTESANAL Y ARGENTINO,
+    OFRECIENDO AL CLIENTE UN PRODUCTO ÚNICO E IRREPETIBLE LE CONFECCIONARÁ UN CUCHILLO">
+    <!-- nombre de la web (titulo) -->
+    <title>Filo Serrano</title>
+</head>
+<!-- fondo con class usado en todas las web -->
+
+<body class="fondoprincipal">
+    <!-- bara de menu (navbar) -->
+    <Header>
+        <nav class="navbar navbar-expand-sm  navbar-dark">
+            <a class="navbar navbar-brand" href="#">Filo Serrano</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class="fa-solid fa-bars fa-beat" style="color: #000000;"></i>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./QuienesSomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galeriadefotos.html">Galeria de Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </Header>
+    <!-- cuerpo de pagina -->
+    <main class="main">
+        <!-- jumbotron con imagen  -->
+        <div class="jumbotron animate__animated animate__bounce">
+            <h1>Filo Serrano</h1>
+            <p class="pjt">Cuchilleria artesanal</p>
+            <a href="productos.html"><button type="button" class="btn">Comprar</button></a>
+        </div>
+        <!-- carrusel bootstrap -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner animate__animated animate__flash">
+                <div class="carousel-item active">
+                    <img src="./multimedia/BANNER3.png" class="d-block w-100" alt="foto-corrousel">
+                </div>
+                <div class="carousel-item">
+                    <img src="./multimedia/PROMO.png" class="d-block w-100" alt="foto carrousel">
+                </div>
+                <div class="carousel-item">
+                    <img src="./multimedia/banner2.png" class="d-block w-100" alt="foto carrousel">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+        <!-- contenedores con texto -->
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col col-md-6">
+                    <h3 class="titulos ">Cuchillos</h3>
+                    <p> Personalizamos su cuchillo con nombres, logos, frases y lo que usted desee grabar sobre la hoja.
+                        Contamos con más de trescientos modelos. Consulte precio por mayor y meno</p>
+                </div>
+                <div class="col col-md-6">
+                    <h3 class="titulos ">Grabado Artesanal</h3>
+                    <p>Grabado 100% artesanal personalizamos cualquier hoja de cuchillo, logrando un proceso de grabado
+                        inalterable a través del tiempo, superando en performance ampliamente la técnica láser.</p>
+                </div>
+            </div>
+        </div>
+        <!-- video descanso cortando los contenedores de texto -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <video class="container-fluid" src="./multimedia/production_id_4215784 (1080p).mp4" autoplay
+                        bucle></video>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid text center">
+            <div class="row">
+                <div class="col col-md-6">
+                    <h3 class="animate__animated animate__bounce"> Hojas de Cuchillos</h3>
+                    <p>NUESTROS CUCHILLOS SON CONFECCIONADOS EN HOJAS DE ACERO INOXIDABLE, TRABAJANDO
+                        TODAS LAS MARCAS DE HOJAS DISPONIBLES EN EL MERCADO. NUESTRO TRABAJO ES 100% ARTESANAL Y
+                        ARGENTINO,
+                        OFRECIENDO AL CLIENTE UN PRODUCTO ÚNICO E IRREPETIBLE LE CONFECCIONARÁ UN CUCHILLO
+                        ORIGINAL fQUE PERMANECERÁ INALTERABLE TODA LA VIDA.</p>
+                </div>
+                <div class="col col-md-6">
+                    <h3 class="titulos">Grabado</h3>
+                    <p> Grabado 100% artesanal, personalizamos cualquier hoja de cuchillo, logrando un proceso de
+                        grabado
+                        inalterable a través del tiempo, superando en performance ampliamente la técnica láser.
+                        Personalizamos su cuchillo con nombres, logos, frases y lo que usted desee grabar sobre la
+                        hoja. Contamos con más de trescientos modelos.
+                        Consulte precio por mayor y menor.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer pie de pagina -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <p class="footer-texto text-center">Arte sobre acero</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.instagram.com/filo.serrano"><i class="bi bi-instagram"></i></a>
+            <a href="http://www.twitter.com"><i class="bi bi-twitter"></i>
+                <a href="http://www.whatsapp.com"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <div class="derechos-de-autor">DISEÑO Y DESARROLLO-FILO SERRANO (2023)</div>
+    </footer>
+
+    <!-- script de BS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
