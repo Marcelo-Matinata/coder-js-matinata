@@ -7,7 +7,7 @@ let idCarrito = [];
 let carrito = [];
 let total=0;
 const cuchillo = {
-    id: 12,
+    id: 2,
     nombre: 'cuchillo 14cm',
     precio: 7000
 }
