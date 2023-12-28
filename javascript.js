@@ -1,3 +1,5 @@
+// prenetrega
+
 let nombre;
 let menu;
 let menuProductos;
@@ -5,7 +7,7 @@ let idCarrito = [];
 let carrito = [];
 let total=0;
 const cuchillo = {
-    id: 1,
+    id: 12,
     nombre: 'cuchillo 14cm',
     precio: 7000
 }
